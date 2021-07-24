@@ -1,12 +1,54 @@
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>第一題：文章列表切版</title>
     <link rel="stylesheet" type="text/css" href="p1.css" />
-  </head>
-  <body>
-    程式導師實驗計畫第五期期中測驗 這是第一題考題，考的是
-    CSS，考的是怎麼排版，不需要在意太多設計上的細節，只想要看對排版的基本功掌握
-    第二篇文章標題 床前明月光，疑是地上霜，舉頭望明月，低頭思故鄉
-  </body>
+</head>
+
+<body>
+    <div class='container'>
+        <nav>
+            <div class='nav__title'>技術文章</div>
+            <div class='nav__btn'>
+                <button>最新</button>
+                <button>熱門</button>
+                <button>鐵人賽</button>
+            </div>
+        </nav>
+        <div class='show__articles'>
+            <div class='article'>
+                <div class='data'>
+                    <div class='like'>
+                        <span>0</span>
+                        <span>Like</span>
+                    </div>
+                    <div class='comment'>
+                        <span>0</span>
+                        <span>留言</span>
+                    </div>
+                    <div class='watches'>
+                        <span>0</span>
+                        <span>瀏覽</span>
+                    </div>
+                </div>
+                <div class='data'>
+                    <div class='like'>
+                        <span>0</span>
+                        <span>Like</span>
+                    </div>
+                    <div class='comment'>
+                        <span>0</span>
+                        <span>留言</span>
+                    </div>
+                    <div class='watches'>
+                        <span>68</span>
+                        <span>瀏覽</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

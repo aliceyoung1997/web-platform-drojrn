@@ -1,3 +1,40 @@
 body {
-  background: #f2f2f2;
+  background: #F2F2F2;
+  width:800px;
+}
+.container {
+  margin-left: 10px;
+}
+nav{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.nav__title{
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav__btn button{
+  border: 0;
+  background:#D5DFE3;
+  color:#62808F;
+  font-size:16px;
+  width:80px;
+  height:30px;
+  align-items: center;
+}
+.article{
+  border-top:5px solid #00a0e9 ;
+}
+.data{
+  display:flex;
+  margin-bottom:5px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.data div{
+  width:50px;
+  font-size: 16px;
+}
+.data span{
+  display:block;
 }
