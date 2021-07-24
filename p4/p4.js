@@ -3,9 +3,9 @@ function solve(arr) {
   let ans=[]
   let id
   for(let i =0;i<arr.length; i++){
-    return id =arr[i].id
+    return id =(arr[i].id)
   }
-  let resultID= id.filter((item. index, array) =>{
+  let resultID= id.filter((item, index, array) =>{
     return array.indexOf(item === index)
   })
   return [];
